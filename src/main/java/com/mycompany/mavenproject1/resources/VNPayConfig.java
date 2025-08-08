@@ -22,11 +22,11 @@ import jakarta.servlet.http.HttpServletRequest;
 public class VNPayConfig {
 
     public static String vnp_PayUrl = "https://sandbox.vnpayment.vn/paymentv2/vpcpay.html";
-    public static String vnp_ReturnUrl = "http://localhost:9999/SWP391-Healthy-Food/cart?action=checkoutVNPay";
+    public static String vnp_ReturnUrl = "http://localhost:8080/mavenproject1/cart2";
     public static String vnp_TmnCode = "W1J069IZ";
     public static String secretKey = "R7MEBMB850UYY0K6YCPA4LS1DJP9FH20";
     public static String vnp_ApiUrl = "https://sandbox.vnpayment.vn/merchant_webapi/api/transaction";
-    public static String vnp_ReturnComboUrl = "http://localhost:9999/SWP391-Healthy-Food/process-vnpay";
+    public static String vnp_ReturnComboUrl = "http://localhost:8080/SWP391-Healthy-Food/process-vnpay";
 
     public static String md5(String message) {
         String digest = null;

@@ -1,2 +1,3 @@
 com\mycompany\mavenproject1\resources\VNPayConfig.class
+com\mycompany\mavenproject1\resources\cart\CartController.class
 com\mycompany\mavenproject1\resources\AjaxServlet.class
